@@ -6,7 +6,7 @@
 
 ***
 
-![Photo](rsschool-cv\photo.jpg)
+![Photo](photo.jpg)
 
 ***
 
