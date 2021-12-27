@@ -7,7 +7,7 @@
 
 
 ***
-
+![Photo](C:\Users\Юлія\Desktop\rsschool\rsschool-cv\photo.jpg)
 ***
 
 ## About Me:
