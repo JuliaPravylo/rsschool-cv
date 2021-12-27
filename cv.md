@@ -6,7 +6,7 @@
 
 ***
 
-![Photo](C:\Users\Юлія\Desktop\rsschool\rsschool-cv\photo.jpg)
+![Photo](rsschool-cv\photo.jpg)
 
 ***
 
