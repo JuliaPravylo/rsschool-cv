@@ -4,6 +4,8 @@
 
 **Email:** vashulenko.julia@gmail.com
 
+**Discord:** Julia_P#7468
+
 ***
 
 ![Photo](photo.jpg)
