@@ -50,12 +50,23 @@ for (let i = 2; i <= 10; i++) {
 - The background property (HTML, CSS) https://juliapravylo.github.io/lesson7/
 - The flex property (HTML, CSS) https://juliapravylo.github.io/Lesson15/
 
-## Education & Courses:
+***
+
+## Education:
+
+Kyiv National Economic University
+Faculty of Accounting and Management Taxation
+Years: 2004 - 2010
+Specialization: Accounting and Audit, Master's degree
+
+***
+
+## Courses & Selfeducation:
 
 - RS Schools Course «JavaScript/Front-end. Stage 0» (In process)
 - CS50 lectures (In process)
 - CSS, HTML, Git video courses on YouTube channels
-- Simulator on HTML Academy [Link on HTML Academy](https://htmlacademy.ru/)
+- Simulator on [HTML Academy](https://htmlacademy.ru/)
 
 ***
 
