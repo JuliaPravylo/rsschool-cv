@@ -1,5 +1,7 @@
 # Julia Pravylo
 
+## Contact information:
+
 **Phone:** +380978218572
 
 **Email:** vashulenko.julia@gmail.com
