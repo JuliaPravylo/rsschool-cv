@@ -44,6 +44,12 @@ for (let i = 2; i <= 10; i++) {
 
 ***
 
+## Experience:
+
+- Pseudo-elements (HTML, CSS) https://juliapravylo.github.io/Lesson8/
+- The background property (HTML, CSS) https://juliapravylo.github.io/lesson7/
+- The flex property (HTML, CSS) https://juliapravylo.github.io/Lesson15/
+
 ## Education & Courses:
 
 - RS Schools Course «JavaScript/Front-end. Stage 0» (In process)
