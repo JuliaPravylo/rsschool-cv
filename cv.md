@@ -17,9 +17,13 @@
 ## About Me:
 
 I'm Julia. At RS School, I am taking the first steps in front-end development. 
-Able to independently make decisions. Like to analyze, optimize and structure. 
-Prefer to understand deeply the work I do. 
-Can handle with tools and know how to “google”.
+After working for 10 years in my profession, I realized that I do not see my future in it. It is difficult to devote your time to what is of no value to others. I have achieved leadership and respect due to my perseverance and love of learning.
+With the advent of my daughter, I rethought many aspects of life. So I decided to try to master web development.
+Strengths:
+- Able to independently make decisions. 
+- Like to analyze, optimize and structure. 
+- Prefer to understand deeply the work I do. 
+- Can handle with tools and know how to “google”.
 
 ***
 
