@@ -24,7 +24,7 @@ Strengths:
 - Like to analyze, optimize and structure. 
 - Prefer to understand deeply the work I do. 
 - Can handle with tools and know how to “google”.
-
+- Ability to work both individually and as a team member.
 ***
 
 ## Skills and Proficiency:
@@ -33,19 +33,27 @@ Strengths:
 - CSS3
 - Editors: Sublime, VS Code
 - Figma, Avocode
+- JS (in process)
+- Git&Github
 
 ***
 
 ## Code example:
+Write code that prints all prime numbers from 2 to n.
+
+let n = 10;
+
+nextPrime:
+for (let i = 2; i <= n; i++) { 
+
+  for (let j = 2; j < i; j++) { 
+    if (i % j == 0) continue nextPrime;
+  }
+
+  alert( i );
+}
 
 Is learning...
-
-for (let i = 2; i <= 10; i++) {
-     if ( i % 2 == 0) {
-     console.log( i );
-     }
- }
-
 ***
 
 ## Experience:
@@ -65,7 +73,7 @@ Specialization: Accounting and Audit, Master's degree
 
 ***
 
-## Courses & Selfeducation:
+## Courses & Self-education:
 
 - RS Schools Course «JavaScript/Front-end. Stage 0» (In process)
 - CS50 lectures (In process)
@@ -76,10 +84,10 @@ Specialization: Accounting and Audit, Master's degree
 
 ## Languages:
 
-Ability to work both individually and as a team member
+
 
 - English (B1);
-- Russian (Native);
+- Russian (Basic);
 - Ukrainian (Native)
 
 ***
