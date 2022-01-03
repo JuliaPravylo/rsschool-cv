@@ -1,1 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600&display=swap');
+.container{
+    max-width: 1024px;
+    margin: 25px auto;
+}
+body{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+h1{
+    font-weight: 600;
+}
