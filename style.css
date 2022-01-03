@@ -2,22 +2,28 @@
 .container{
     max-width: 1024px;
     margin: 25px auto;
+    background: #f1f2f3;
 }
 body{
     font-family: 'Exo', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    color: #454B73;
 }
 .header{
     display: flex;
+    align-items: flex-start;
+    gap: 250px;
     padding: 20px 50px;
-    background: url('assets/svg/threeangle.svg') 0 0 no-repeat;
+    background:   url('assets/img/circle02.png') 140px 30px no-repeat, url('assets/img/circle01.png') 100px 50px no-repeat, url('assets/img/line.png') 0 0 no-repeat, url('assets/svg/threeangle.svg') 0 0 no-repeat;
 }
 h1{
     font-weight: 600;
+    font-size: 35px;
 }
 .header img{
+    position: relative; 
+    top: 30px;
+    left: 70px;
     border-radius: 50%;
     width: 200px;
 }
