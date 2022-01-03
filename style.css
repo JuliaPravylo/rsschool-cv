@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600&display=swap');
+p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: #454B73;
+}
 .container{
     max-width: 1024px;
-    margin: 25px auto;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
     background: #f1f2f3;
 }
 body{
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: 'Exo', sans-serif;
     font-size: 16px;
     font-weight: normal;
+    box-sizing: border-box;
+    color: #454B73;
+    background: #f1f2f3;
 }
 .header{
     display: flex;
@@ -29,22 +46,29 @@ h1{
 }
 .contact-list{
     list-style: none;
+    padding: 0;
 }
 .contact-list__item{
     display: flex;
     gap: 25px;
-    padding: 0px 40px 0px 0px;
     background: #FBD6D7;
     border-radius: 50px;
 }
 .contact-list__item:not(:last-child){
     margin: 0 0 15px 0;
 }
+.contact-list__item p{
+    padding: 15px 30px;
+}
 .img-discord{
     background: url('assets/svg/discord.svg') 50% 50% no-repeat;
 }
 .main{
     display: flex;
+    gap: 30px;
+}
+.left-column{
+    max-width: 60%;
 }
 h2{
     display: inline-block;
@@ -64,4 +88,34 @@ h3{
 .pincphone{
     background: url('assets/img/pincphone.png') 0 0 no-repeat;
     background-size: 75% 100%;
+}
+
+.experience a:hover{
+    font-weight: 500;
+}
+.code{
+    margin: 0 0 20px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #DCE2F2;
+}
+.github-img{
+    max-width: 50px;
+}
+.gitlink{
+    display: flex;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    color: #454B73;
+}
+.gitlink p{
+    font-weight: 500;
+}
+.rs-img{
+    width: 75px;
 }
