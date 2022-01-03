@@ -9,6 +9,15 @@ body{
     font-weight: normal;
     color: #454B73;
 }
+.header{
+    display: flex;
+    padding: 20px 50px;
+    background: url('assets/svg/threeangle.svg') 0 0 no-repeat;
+}
 h1{
     font-weight: 600;
+}
+.header img{
+    border-radius: 50%;
+    width: 200px;
 }
