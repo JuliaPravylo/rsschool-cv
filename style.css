@@ -20,10 +20,23 @@ h1{
     font-weight: 600;
     font-size: 35px;
 }
-.header img{
+.img-photo{
     position: relative; 
     top: 30px;
     left: 70px;
     border-radius: 50%;
     width: 200px;
+}
+.contact-list{
+    list-style: none;
+}
+.contact-list__item{
+    display: flex;
+    gap: 25px;
+    padding: 0px 40px 0px 0px;
+    background: #FBD6D7;
+    border-radius: 50px;
+}
+.contact-list__item:not(:last-child){
+    margin: 0 0 15px 0;
 }
