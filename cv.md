@@ -10,7 +10,7 @@
 
 ***
 
-![Photo](photo.jpg)
+![Photo](rsschool-cv\assets\img\photo.jpg)
 
 ***
 
