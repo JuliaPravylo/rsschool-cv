@@ -19,7 +19,7 @@
             <h3>Contact information</h3>
             <ul class="contact-list">
                 <li class="contact-list__item">
-                    <img class="img-phone" src="assets/svg/phone.svg" width="50px" height="50px" alt="phone icon">
+                    <img src="assets/svg/phone.svg" width="50px" height="50px" alt="phone icon">
                     <p>+380978218572</p>
                 </li>
                 <li class="contact-list__item">
@@ -27,7 +27,7 @@
                     <p>vashulenko.julia@gmail.com</p>
                 </li>
                 <li class="contact-list__item">
-                    <img src="assets/svg/circle03.svg" width="50px" height="50px" alt="discord icon">
+                    <img class="img-discord" src="assets/svg/circle03.svg" width="50px" height="50px" alt="discord icon">
                     <p>Julia_P#7468</p>
                 </li>
             </ul>
@@ -36,95 +36,91 @@
 
         <main class="main">
 
-            <section class="about">
-                <h2>About Me</h2>
-                <p>I'm Julia. After working for 10 years in my profession, I realized that I do not see my future in it. It is difficult to devote your time to what is of no value to others. I have achieved leadership and respect due to my perseverance and love of learning.</p>
-                <p>With the advent of my daughter, I rethought many aspects of life. So I decided to try to master web development. At RS School, I am taking the first steps in front-end development.</p>
-                <h3>Strengths:</h3>
-                <ul>
-                    <li>Able to independently make decisions</li>
-                    <li>Like to analyze, optimize and structure</li>
-                    <li>Prefer to understand deeply the work I do</li>
-                    <li>Can handle with tools and know how to “google”</li>
-                    <li>Ability to work both individually and as a team member</li>
-                </ul>
-            </section>
+            <div class="left-column">
+                <section class="about">
+                    <h2 class="pincphone">About Me</h2>
+                    <p>I'm Julia. After working for 10 years in my profession, I realized that I do not see my future in it. It is difficult to devote your time to what is of no value to others. I have achieved leadership and respect due to my perseverance and love of learning.</p>
+                    <p>With the advent of my daughter, I rethought many aspects of life. So I decided to try to master web development. At RS School, I am taking the first steps in front-end development.</p>
+                    <h3>Strengths:</h3>
+                    <ul>
+                        <li>Able to independently make decisions</li>
+                        <li>Like to analyze, optimize and structure</li>
+                        <li>Prefer to understand deeply the work I do</li>
+                        <li>Can handle with tools and know how to “google”</li>
+                        <li>Ability to work both individually and as a team member</li>
+                    </ul>
+                </section>
+                <section class="skills">
+                    <h2>Skills and Proficiency:</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Editors: Sublime, VS Code</li>
+                        <li>Figma, Avocode (as web developer)</li>
+                        <li>JS (in process)</li>
+                        <li>Git&Github</li>
+                    </ul>
+                </section>
+                <section class="code">
+                    <h2>Code example:</h2>
+                    <p>Write code that prints all prime numbers from 2 to n.</p>
+                    <pre>
+                        let n = 10;
+                        nextPrime:
+                        for (let i = 2; i <= n; i++) {
+                        for (let j = 2; j < i; j++) {
+                            if (i % j == 0) continue nextPrime;
+                        }
+                        alert( i );
+                        }
+                    </pre>
+                    <p>Is learning...</p>
+                </section>
+                <section class="experience">
+                    <h2>Experience:</h2>
+                    <ul>
+                        <li>Pseudo-elements (HTML, CSS) - [Deploy] (https://juliapravylo.github.io/Lesson8/)</li>
+                        <li>The background property (HTML, CSS) - [Deploy] (https://juliapravylo.github.io/lesson7/)</li>
+                        <li>The flex property (HTML, CSS) - [Deploy] (https://juliapravylo.github.io/Lesson15/)</li>
+                    </ul>
+                </section>
+            </div>
 
-            <section class="skills">
-                <h2>Skills and Proficiency:</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Editors: Sublime, VS Code</li>
-                    <li>Figma, Avocode (as web developer)</li>
-                    <li>JS (in process)</li>
-                    <li>Git&Github</li>
-                </ul>
-            </section>
+            <div class="right-column">
+                <section class="education">
+                    <h2 class="bluephone">Education:</h2>
+                    <p>Kyiv National Economic University</p>
+                    <p>Faculty of Accounting and Management Taxation</p>
+                    <p>Years: 2004 - 2010</p>
+                    <p>Specialization: Accounting and Audit, Master's degree</p>
+                </section>
+                <section class="courses">
+                    <h2>Courses & Self-education:</h2>
+                    <ul>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0» (In process)</li>
+                        <li>CS50 lectures (In process)</li>
+                        <li>CSS, HTML, Git video courses on YouTube channels</li>
+                        <li>Simulator on [HTML Academy](https://htmlacademy.ru/)</li>
+                    </ul>
+                </section>
+                <section class="lang">
+                    <h2>Languages:</h2>
+                    <ul>
+                        <li>English (B1)</li>
+                        <li>Russian (Basic)</li>
+                        <li>Ukrainian (Native)</li>
+                    </ul>
+                </section>
+                <section class="hobby">
+                    <h2>Hobbies:</h2>
+                    <ul>
+                        <li>Music</li>
+                        <li>Cooking</li>
+                        <li>Knitting</li>
+                    </ul>
+                </section>
+            </div>
 
-            <section class="code">
-                <h2>Code example:</h2>
-                <p>Write code that prints all prime numbers from 2 to n.</p>
-                <pre>
-                    let n = 10;
-
-                    nextPrime:
-                    for (let i = 2; i <= n; i++) { 
-
-                    for (let j = 2; j < i; j++) { 
-                        if (i % j == 0) continue nextPrime; 
-                    }
-
-                    alert( i ); 
-                    }
-                </pre>
-                <p>Is learning...</p>
-            </section>
-
-            <section class="experience">
-                <h2>Experience:</h2>
-                <ul>
-                    <li>Pseudo-elements (HTML, CSS) - [Deploy] (https://juliapravylo.github.io/Lesson8/)</li>
-                    <li>The background property (HTML, CSS) - [Deploy] (https://juliapravylo.github.io/lesson7/)</li>
-                    <li>The flex property (HTML, CSS) - [Deploy] (https://juliapravylo.github.io/Lesson15/)</li>
-                </ul>
-            </section>
-
-            <section class="education">
-                <h2>Education:</h2>
-                <p>Kyiv National Economic University</p>
-                <p>Faculty of Accounting and Management Taxation</p>
-                <p>Years: 2004 - 2010</p>
-                <p>Specialization: Accounting and Audit, Master's degree</p>
-            </section>
-
-            <section class="courses">
-                <h2>Courses & Self-education:</h2>
-                <ul>
-                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (In process)</li>
-                    <li>CS50 lectures (In process)</li>
-                    <li>CSS, HTML, Git video courses on YouTube channels</li>
-                    <li>Simulator on [HTML Academy](https://htmlacademy.ru/)</li>
-                </ul>
-            </section>
-
-            <section class="lang">
-                <h2>Languages:</h2>
-                <ul>
-                    <li>English (B1)</li>
-                    <li>Russian (Basic)</li>
-                    <li>Ukrainian (Native)</li>
-                </ul>
-            </section>
-
-            <section class="hobby">
-                <h2>Hobbies:</h2>
-                <ul>
-                    <li>Music</li>
-                    <li>Cooking</li>
-                    <li>Knitting</li>
-                </ul>
-            </section>
         </main>
 
         <footer class="footer">

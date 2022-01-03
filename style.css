@@ -40,3 +40,28 @@ h1{
 .contact-list__item:not(:last-child){
     margin: 0 0 15px 0;
 }
+.img-discord{
+    background: url('assets/svg/discord.svg') 50% 50% no-repeat;
+}
+.main{
+    display: flex;
+}
+h2{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border: 0.5px solid #454B73;
+}
+h3{
+    font-size: 14px;
+}
+.bluephone{
+    background: url('assets/img/bluephone.png') 0 0 no-repeat;
+    background-size: 75% 100%;
+}
+.pincphone{
+    background: url('assets/img/pincphone.png') 0 0 no-repeat;
+    background-size: 75% 100%;
+}
