@@ -83,7 +83,7 @@ Ability to work both individually and as a team member
 - Ukrainian (Native)
 
 ***
-## Hobies:
+## Hobbies:
 
 - Music
 - Cooking
