@@ -77,3 +77,11 @@ Ability to work both individually and as a team member
 - English (B1);
 - Russian (Native);
 - Ukrainian (Native)
+
+***
+## Hobies:
+
+- Music
+- Cooking
+- Knitting
+
