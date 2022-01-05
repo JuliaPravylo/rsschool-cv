@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,3 +9,167 @@
     <link rel="icon" href="assets/img/favicon.ico">
     <title>CV</title>
 </head>
+
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li>
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills and Proficiency</a></li>
+                    <li><a href="#code">Code example</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#courses">Courses & Self-education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#lang">Languages</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section cv-header">
+                
+                <img class="img-photo" src="assets/img/photo.jpg" alt="My photo">
+                
+                <div class="cv-header__item">
+                    <section class="cv-header title">
+                        <h1>Julia Pravylo</h1>
+                    </section>
+                    
+                    <section class="section contacts-section">
+                        <h3 id="contacts" class="contacts-title">Contact information</h3>
+                        <ul class="contact-list">
+                            <li class="contact-list__item">
+                                <img src="assets/svg/phone.svg" width="50" height="50" alt="phone icon">
+                                <p>+380978218572</p>
+                            </li>
+                            <li class="contact-list__item">
+                                <img src="assets/svg/mail.svg" width="50" height="50" alt="mail icon">
+                                <p>vashulenko.julia@gmail.com</p>
+                            </li>
+                            <li class="contact-list__item">
+                                <img class="img-discord" src="assets/svg/circle03.svg" width="50" height="50" alt="discord icon">
+                                <p>Julia_P#7468</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+
+            <section class="section cv-body">
+                <section id="about" class="section">
+                    <h2 class="section-title pinkphone">About Me</h2>
+                    <p>I'm Julia. After working for 10 years in my profession, I realized that I do not see my future in it. It is difficult to devote your time to what is of no value to others. I have achieved leadership and respect due to my perseverance and love of learning.</p>
+                    <p>With the advent of my daughter, I rethought many aspects of life. So I decided to try to master web development. At RS School, I am taking the first steps in front-end development.</p>
+                    <h3>Strengths:</h3>
+                    <ul>
+                        <li>Able to independently make decisions</li>
+                        <li>Like to analyze, optimize and structure</li>
+                        <li>Prefer to understand deeply the work I do</li>
+                        <li>Can handle with tools and know how to “google”</li>
+                        <li>Ability to work both individually and as a team member</li>
+                    </ul>
+                </section>
+                <section id="skills" class="section">
+                    <h2 class="section-title bluephone">Skills and Proficiency</h2>
+                    <ul>
+                        <li>HTML5, CSS3, Markdown</li>
+                        <li>Editors: Sublime, VS Code</li>
+                        <li>Figma, Avocode (as web developer)</li>
+                        <li>JS (in process)</li>
+                        <li>Git&Github</li>
+                    </ul>
+                </section>
+                <section id="code" class="section">
+                    <h2 class="section-title pinkphone">Code example</h2>
+                    <p>Write code that prints all prime numbers from 2 to n.</p>
+                    <pre>
+                
+                    let n = 10;
+                    nextPrime:
+                    for (let i = 2; i &lt; = n; i++) {
+                        for (let j = 2; j &lt; i; j++) {
+                if (i % j == 0) continue nextPrime;
+                }
+                        alert( i );
+                    }
+                    </pre>
+                </section>
+                <section id="education" class="section">
+                    <h2 class="section-title bluephone">Education</h2>
+                <div>
+                    <p>Kyiv National Economic University</p>
+                    <p>Faculty of Accounting and Management Taxation</p>
+                    <p>Years: 2004 - 2010</p>
+                    <p>Specialization: Accounting and Audit, Master's degree</p>
+                </div>
+                
+                
+                </section>
+                <section id="courses" class="section">
+                    <h2 class="section-title pinkphone">Courses & Self-education:</h2>
+                    <ul>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0» (In process)</li>
+                        <li>CS50 lectures (In process)</li>
+                        <li>CSS, HTML, Git video courses on YouTube channels</li>
+                        <li>Simulator on HTML Academy</li>
+                    </ul>
+                </section>
+                <section id="experience" class="section">
+                    <h2 class="section-title bluephone">Experience:</h2>
+                    <ul>
+                        <li>
+                            <a href="https://juliapravylo.github.io/Lesson8/" class="experience-link"> Pseudo-elements </a>
+                            <span>(HTML, CSS)</span>
+                        </li>
+                        <li>
+                            <a href="https://juliapravylo.github.io/lesson7/" class="experience-link">The background property </a>
+                            <span>(HTML, CSS)</span>
+                        </li>
+                        <li>
+                            <a href="https://juliapravylo.github.io/Lesson15/" class="experience-link">The flex property</a>
+                            <span>(HTML, CSS)</span>
+                        </li>
+                    </ul>
+                </section>
+                <section id="lang" class="section">
+                    <h2 class="section-title pinkphone">Languages:</h2>
+                    <ul>
+                        <li>English (B1)</li>
+                        <li>Russian (Basic)</li>
+                        <li>Ukrainian (Native)</li>
+                    </ul>
+                </section>
+                <section id="hobbies" class="section">
+                    <h2 class="section-title bluephone">Hobbies:</h2>
+                    <ul>
+                        <li>Music</li>
+                        <li>Yoga</li>
+                        <li>Cooking</li>
+                        <li>Knitting</li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <a class="gitlink" href="https://github.com/JuliaPravylo">
+            <p> My </p>
+            <img class="github-img" src="assets/img/octocat.png" alt="Github icon">
+            <p> GitHub</p>
+        </a>
+
+        <p><strong>© 2021</strong></p>
+
+        <a href="https://rs.school/js-stage0/">
+            <img class="rs-img" src="assets/svg/rs_logo.svg" alt="RS logo">
+    </footer>
+</body>
